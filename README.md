@@ -13,7 +13,8 @@ terraform.tfvars
 1. First configure the aws credentials using aws-cli
 
 ```
-create the json file for credentials
+gcloud iam service-accounts keys create cred.json --iam-account=NAME@PROJECT_ID.iam.gserviceaccount.com
+
 ```
 2. To Initialize 
 
